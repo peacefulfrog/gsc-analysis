@@ -335,10 +335,10 @@ def pages_needing_optimization(page_data):
 
 # Main Streamlit app
 def main():
-    st.title("Advanced SEO Data Analysis")
+    st.title("Free Google Search Console SEO Audit")
     
     # File uploader
-    uploaded_file = st.file_uploader("Choose your zip file containing Query, Country, and Page data", type="zip")
+    uploaded_file = st.file_uploader("First download your zip file from GOOGLE SEARCH CONSOLE containing Query, Country, and Page data, then upload here", type="zip")
     
     # Sidebar for user inputs
     st.sidebar.header("Analysis Parameters")
